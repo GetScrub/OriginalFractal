@@ -30,7 +30,7 @@ public void myFractal(int x, int y, int size){
   
   //Squashed rectangle
   rect(x,y,size*2,size/2);
-  if(size>40){
+  if(size>24){
     
     //Normal rectangle
     myFractal(x-size/2,y-size/2,size/2);
@@ -52,3 +52,4 @@ public void myFractal(int x, int y, int size){
   }
   
 }
+
